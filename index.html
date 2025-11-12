@@ -17,7 +17,7 @@
         text-align: center;
     }
     header img {
-        width: 120px; height:120px; border-radius:50%; margin-bottom: 15px;
+        width: 300px; height:300px;  margin-bottom: 15px;
         border: 3px solid white;
     }
     header h1 { margin-bottom: 5px; }
@@ -67,11 +67,7 @@
 </head>
 <body>
 
-<header>
-    <img src=https://github.com/Siwakorn129/Siwakorn129.github.io/blob/35a73f0b1f5e16a216eadc164c2c036302231110/1668947549588.jpg alt="Profile Picture">
-    <h1>Siwakorn Thanusa</h1>
-    <p>นักพัฒนาเว็บ / นักศึกษาวิทยาการคอมพิวเตอร์</p>
-</header>
+
 
 <nav>
     <a href="#about">แนะนำตัว</a>
@@ -85,54 +81,73 @@
 
 <section id="about">
     <h2>แนะนำตัว</h2>
-    <p>สวัสดีครับ ผมชื่อ Siwakorn Thanusa กำลังศึกษาอยู่ปี 3 สาขาวิทยาการคอมพิวเตอร์ มีความสนใจในการพัฒนาเว็บและเกมมือถือ</p>
+    <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <!-- รูปโปรไฟล์ -->
+        <img src="https://raw.githubusercontent.com/Siwakorn129/Siwakorn129.github.io/main/1668947549588.jpg" 
+             alt="Profile Picture" 
+             style="width:400px; height:500px; border:3px solid #4CAF50;">
+        
+        <!-- ข้อมูลส่วนตัว -->
+        <div>
+            <p><strong>นายศิวกร ธนูสา</strong></p>
+            <p><strong>Siwakorn Thanusa</strong></p>
+            <p>สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์</p>
+            <p>มหาวิทยาลัยราชภัฏอุดรธานี</p>
+            <p>นักศึกษาปี 3</p>
+            <p>ความสนใจเฉพาะทาง: Web-application, mobile application</p>
+        </div>
+    </div>
 </section>
+
 
 <section id="skills">
     <h2>ทักษะ</h2>
     <ul>
-        <li>ภาษาโปรแกรม: C, C#, Java, Python, Kotlin</li>
-        <li>Frontend: HTML, CSS, JavaScript</li>
-        <li>Backend: .NET Framework, Python Flask</li>
-        <li>Mobile: Android (Kotlin)</li>
+        <li>ภาษาโปรแกรม: C, C#, Java, Python, Kotlin, HTML, CSS, JavaScript</li>
+        <li>Database: MySQL, SSMS</li>
+        <li>Tools: Git, Github</li>
+        <li>Soft Skills: การสื่อสาร, การทำงานเป็นทีม</li>
     </ul>
 </section>
 
 <section id="projects">
     <h2>ผลงาน</h2>
     <ul>
-        <li>ระบบจัดการหอพัก (Web App)</li>
-        <li>เกมมือถือแนว Stardew Valley</li>
-        <li>Portfolio เว็บไซต์ส่วนตัว</li>
+        <li>ไลน์แชทบอทตอบคำถามสมัครเรียน</li>
+        <img src="pj1.png" alt="AI Chatbot for CSIT Student" width="500" />
+        <li>ระบบ AI ตรวจจับใบหน้าเข้าธนาคาร</li>
+        <img src="pj2.png" alt="Face detection By AI Machine learning" width="500" />
     </ul>
 </section>
 
 <section id="education">
     <h2>การศึกษา</h2>
-    <p>คณะวิทยาการคอมพิวเตอร์ ปี 3</p>
+    <p>- ปี3 สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี (กำลังศึกษา)</p>
+    <p>- โรงเรียนยโสธรพิทยาสรรค์ ชั้นมัธยมศึกษาตอนปลาย</p>
 </section>
 
 <section id="activities">
     <h2>กิจกรรมและผลงานอื่นๆ</h2>
     <ul>
-        <li>เข้าร่วมการแข่งขัน NSC พัฒนาเกมมือถือ</li>
-        <li>โครงการพัฒนา Web App สำหรับคลินิกเสริมความงาม</li>
+        <li>เข้าร่วมการแข่งขัน Startup Thailand League Udonthani</li>
     </ul>
 </section>
 
 <section id="contact">
     <h2>ติดต่อ</h2>
-    <p>Email: siwakorn@example.com</p>
-    <p>Facebook: fb.com/siwakorn</p>
+    <p>Email: siwakorn.ze44@gmail.com</p>
+    <p>Facebook: Siwakorn Thanusa</p>
+    <p>Line: cn.makham</p>
+    <p>เบอร์โทรศัพท์: 092-790-6830</p>
 </section>
 
 <section id="goals">
     <h2>เป้าหมายในอนาคต</h2>
-    <p>อยากเป็น Full-stack Developer และพัฒนาเกมมือถือที่มีคุณภาพ</p>
+    <p>Programmer</p>
 </section>
 
 <footer>
-    <p>&copy; 2025 Siwakorn Thanusa</p>
+    <p>Siwakorn Thanusa</p>
 </footer>
 
 </body>
