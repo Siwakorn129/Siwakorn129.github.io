@@ -1,79 +1,75 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siwakorn Thanusa - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siwakorn Thanusa - Resume</title>
+<style>
+    /* ===== Reset & basic ===== */
+    * { margin:0; padding:0; box-sizing:border-box; scroll-behavior: smooth; }
+    body { font-family: 'Arial', sans-serif; line-height: 1.6; background:#f0f2f5; color:#333; }
+    a { text-decoration:none; color: inherit; }
+    
+    /* ===== Header ===== */
+    header {
+        background: #4CAF50;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    header img {
+        width: 120px; height:120px; border-radius:50%; margin-bottom: 15px;
+        border: 3px solid white;
+    }
+    header h1 { margin-bottom: 5px; }
+    header p { font-size: 1.1em; }
 
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
+    /* ===== Navigation ===== */
+    nav {
+        background: #333;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav a {
+        padding: 12px 20px;
+        color: #f2f2f2;
+        transition: 0.3s;
+    }
+    nav a:hover { background:#4CAF50; color:white; }
 
-        header h1 {
-            margin: 0;
-        }
+    /* ===== Sections ===== */
+    section {
+        max-width: 900px;
+        margin: 20px auto;
+        background: white;
+        padding: 25px 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+        border-bottom: 2px solid #4CAF50;
+        margin-bottom: 15px;
+        padding-bottom:5px;
+        color:#333;
+    }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom:8px; }
 
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 12px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        section {
-            padding: 20px;
-            margin: 10px auto;
-            max-width: 800px;
-            background-color: white;
-            border-radius: 8px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+    /* ===== Footer ===== */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
 </head>
 <body>
 
 <header>
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
     <h1>Siwakorn Thanusa</h1>
     <p>นักพัฒนาเว็บ / นักศึกษาวิทยาการคอมพิวเตอร์</p>
 </header>
@@ -85,6 +81,7 @@
     <a href="#education">การศึกษา</a>
     <a href="#activities">กิจกรรม</a>
     <a href="#contact">ติดต่อ</a>
+    <a href="#goals">เป้าหมาย</a>
 </nav>
 
 <section id="about">
